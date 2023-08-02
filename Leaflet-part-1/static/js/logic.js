@@ -14,7 +14,7 @@ function markerColor(depth) {
  }
 
 //Define map object
-let map = L.map("map").setView([37.09, -95.71], 5);
+let map = L.map("map").setView([37.1, -95.71], 5);
 
 //Add background map
 L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
